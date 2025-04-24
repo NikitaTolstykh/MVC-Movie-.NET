@@ -4,8 +4,13 @@
     <projectFile profileName="http">MVC_Movie.csproj</projectFile>
     <projectFile profileName="https">MVC_Movie.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="99279dd9-72ea-4123-bca3-427a6a6d42f4" name="Changes" comment="" />
+    <list default="true" id="99279dd9-72ea-4123-bca3-427a6a6d42f4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC_Movie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC_Movie/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +36,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745517645968</updated>
-      <workItem from="1745517648083" duration="328000" />
+      <workItem from="1745517648083" duration="658000" />
     </task>
     <servers />
   </component>
