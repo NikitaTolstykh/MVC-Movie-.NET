@@ -3,16 +3,18 @@ using System.Text.Encodings.Web;
 
 namespace MVC_Movie.Controllers;
 
-public class HelloWorldController
+public class HelloWorldController : Controller
 {
-    public String Index()
+    public IActionResult Index()
     {
-        return "This is my default action...";
+        return View();
     }
 
-    public string Welcome(string name, int ID = 1)
+    public IActionResult Welcome(string name, int numTimes = 1)
     {
-        return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
+        ViewData["Message"] = "Hello " + name;
+        ViewData["NumTimes"] = numTimes;
+        return View();
     }
     
 }
