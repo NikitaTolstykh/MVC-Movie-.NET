@@ -10,7 +10,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99279dd9-72ea-4123-bca3-427a6a6d42f4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MVC_Movie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MVC_Movie/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/SeedData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/SeedData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Movie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Movie.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <workItem from="1745517648083" duration="4234000" />
       <workItem from="1745521942751" duration="786000" />
       <workItem from="1745526470195" duration="13118000" />
-      <workItem from="1745588225158" duration="2283000" />
+      <workItem from="1745588225158" duration="4036000" />
     </task>
     <task id="LOCAL-00001" summary="part 2 - created Controller">
       <option name="closed" value="true" />
@@ -155,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745589204707</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="8 part tutorial">
+      <option name="closed" value="true" />
+      <created>1745591729293</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745591729293</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +180,8 @@
     <MESSAGE value="part 5 of tutorial" />
     <MESSAGE value="part 6 tutorial" />
     <MESSAGE value="7 part tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 part tutorial" />
+    <MESSAGE value="8 part tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 part tutorial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
