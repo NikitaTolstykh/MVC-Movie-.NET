@@ -161,7 +161,11 @@ namespace MvcMovie.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movie = await _context.Movie.FindAsync(id);
-            _context.Movie.Remove(movie);
+            if (movie != null)
+            {
+                _context.Movie.Remove(movie);
+            }
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
